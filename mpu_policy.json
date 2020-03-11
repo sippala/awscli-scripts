@@ -1,0 +1,17 @@
+{
+    "Rules": [
+        {
+            "Filter": {
+                "Prefix": ""
+            },
+            "Status": "Enabled",
+            "AbortIncompleteMultipartUpload": {
+                "DaysAfterInitiation": 7
+            },
+            "Expiration": {
+                "ExpiredObjectDeleteMarker": true
+            },
+            "ID": "clean_mpu_and_deletemarker"
+        }
+    ]
+}
